@@ -2,7 +2,6 @@ import io
 import time
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
-from essence.analytics.platform.securedcredentials import getCredentialsFromEssenceVault as secure_creds
 from googleapiclient.discovery import build
 from oauth2client import client
 from googleapiclient.http import MediaIoBaseDownload
